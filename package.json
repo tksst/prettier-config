@@ -1,0 +1,46 @@
+{
+  "name": "@tksst/prettier-config",
+  "version": "0.0.0",
+  "description": "My personal Prettier config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/tksst/prettier-config",
+  "repository": "github:tksst/prettier-config",
+  "license": "CC0",
+  "author": {
+    "name": "Takashi Sato",
+    "email": "takashi@tks.st",
+    "url": "https://www.tks.st/"
+  },
+  "main": "prettier.config.js",
+  "scripts": {
+    "lint": "prettier -l .",
+    "fix": "npm run lint -- --write",
+    "test": "npm run lint",
+    "prepare": "npm run lint"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "npm": "8.7.0",
+    "prettier": "2.6.2",
+    "semantic-release": "19.0.2"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ],
+    "branches": [
+      "main"
+    ]
+  }
+}
