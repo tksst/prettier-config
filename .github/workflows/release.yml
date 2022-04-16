@@ -4,7 +4,12 @@ on:
     workflows:
       - test
     branches:
-      - main
+      # according to the semantic-release default branch configuration:
+      - master
+      - next
+      - next-major
+      - alpha
+      - beta
     types:
       - completed
 
