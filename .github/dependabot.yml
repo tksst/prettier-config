@@ -5,8 +5,13 @@ updates:
     directory: /
     schedule:
       interval: monthly
+    commit-message:
+      prefix: "chore(dependencies)"
+      prefix-development: "build"
   - package-ecosystem: github-actions
     target-branch: develop
     directory: /
     schedule:
       interval: monthly
+    commit-message:
+      prefix: "ci"
