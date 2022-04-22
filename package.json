@@ -26,18 +26,8 @@
   "devDependencies": {
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
-    "npm": "8.7.0",
     "prettier": "2.6.2",
     "semantic-release": "19.0.2"
   },
-  "release": {
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/github",
-      "@semantic-release/git"
-    ]
-  }
+  "packageManager": "npm@8.7.0"
 }
