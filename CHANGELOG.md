@@ -1,3 +1,17 @@
+## [1.0.4](https://github.com/tksst/prettier-config/compare/v1.0.3...v1.0.4) (2022-06-04)
+
+
+### Bug Fixes
+
+* **deps:** bump npm from 8.7.0 to 8.12.1 ([#8](https://github.com/tksst/prettier-config/issues/8)) ([14b8a91](https://github.com/tksst/prettier-config/commit/14b8a91b29ac8f238e016b075164a791d2e62c34))
+
+## [1.0.3](https://github.com/tksst/prettier-config/compare/v1.0.2...v1.0.3) (2022-06-04)
+
+
+### Bug Fixes
+
+* **deps:** bump semver-regex from 3.1.3 to 3.1.4 ([#7](https://github.com/tksst/prettier-config/issues/7)) ([a562883](https://github.com/tksst/prettier-config/commit/a562883e1bf2d800203a140133c0199578060f55))
+
 ## [1.0.2](https://github.com/tksst/prettier-config/compare/v1.0.1...v1.0.2) (2022-04-16)
 
 
