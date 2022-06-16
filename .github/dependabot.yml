@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: monthly
     commit-message:
-      prefix: "chore(dependencies)"
+      prefix: "chore(deps)"
       prefix-development: "build"
   - package-ecosystem: github-actions
     target-branch: develop
