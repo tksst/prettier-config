@@ -15,7 +15,7 @@
   },
   "main": "prettier.config.js",
   "scripts": {
-    "lint": "prettier -l .",
+    "lint": "prettier --cache -l .",
     "fix": "npm run lint -- --write",
     "test": "npm run lint",
     "prepare": "npm run lint"
