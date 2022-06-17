@@ -17,8 +17,7 @@
   "scripts": {
     "lint": "prettier --cache -l .",
     "fix": "npm run lint -- --write",
-    "test": "npm run lint",
-    "prepare": "npm run lint"
+    "test": "npm run lint"
   },
   "peerDependencies": {
     "prettier": "*"
