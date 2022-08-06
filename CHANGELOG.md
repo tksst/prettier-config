@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/tksst/prettier-config/compare/v1.0.4...v1.0.5) (2022-08-06)
+
+
+### Bug Fixes
+
+* set the tabWidth in JSON5 to be the same as in JSON ([dae8052](https://github.com/tksst/prettier-config/commit/dae80521b918adccc7684288b59b1ffd61873981))
+
 ## [1.0.4](https://github.com/tksst/prettier-config/compare/v1.0.3...v1.0.4) (2022-06-04)
 
 

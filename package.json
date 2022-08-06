@@ -1,6 +1,6 @@
 {
   "name": "@tksst/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "My personal Prettier config",
   "publishConfig": {
     "access": "public"
