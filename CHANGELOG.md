@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/tksst/prettier-config/compare/v1.0.5...v1.1.0) (2022-08-15)
+
+
+### Bug Fixes
+
+* remove useless trailingComma configuration for YAML ([4bfcfd7](https://github.com/tksst/prettier-config/commit/4bfcfd7a240e1eabd61b756e71b32ac23dcfb3a3))
+
+
+### Features
+
+* HTML tabWidth 2 ([bcb376f](https://github.com/tksst/prettier-config/commit/bcb376fccedcb64abebeee665d9b5cb00e2017a1))
+
 ## [1.0.5](https://github.com/tksst/prettier-config/compare/v1.0.4...v1.0.5) (2022-08-06)
 
 
