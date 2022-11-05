@@ -16,8 +16,8 @@
   "main": "prettier.config.js",
   "scripts": {
     "lint": "prettier --cache -l .",
-    "fix": "npm run lint -- --write",
-    "test": "npm run lint"
+    "fix": "pnpm lint --write",
+    "test": "pnpm lint"
   },
   "peerDependencies": {
     "prettier": "*"
@@ -28,5 +28,5 @@
     "prettier": "2.7.1",
     "semantic-release": "19.0.3"
   },
-  "packageManager": "npm@8.17.0"
+  "packageManager": "pnpm@7.14.2"
 }
