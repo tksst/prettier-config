@@ -31,3 +31,20 @@ module.exports = {
   // and your settings here
 };
 ```
+
+If you use prettier >= 3, you can import the config as an ES Module:
+
+```javascript
+export { default } from "@tksst/prettier-config";
+```
+
+or
+
+```javascript
+import config from "@tksst/prettier-config";
+
+export default {
+  ...config
+  // and your settings here
+};
+```
