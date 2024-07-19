@@ -10,16 +10,16 @@ importers:
     devDependencies:
       '@semantic-release/changelog':
         specifier: 6.0.3
-        version: 6.0.3(semantic-release@21.0.7)
+        version: 6.0.3(semantic-release@21.1.2)
       '@semantic-release/git':
         specifier: 10.0.1
-        version: 10.0.1(semantic-release@21.0.7)
+        version: 10.0.1(semantic-release@21.1.2)
       prettier:
         specifier: 2.8.8
         version: 2.8.8
       semantic-release:
-        specifier: 21.0.7
-        version: 21.0.7
+        specifier: 21.1.2
+        version: 21.1.2
 
 packages:
 
@@ -183,10 +183,6 @@ packages:
     resolution: {integrity: sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==}
     engines: {node: '>=8'}
 
-  aggregate-error@4.0.1:
-    resolution: {integrity: sha512-0poP0T7el6Vq3rstR8Mn4V/IQrpBLO6POkUSrN7RhyY+GF/InCFShQzsQ39T25gkHhLgSLByyAz+Kjb+c2L98w==}
-    engines: {node: '>=12'}
-
   aggregate-error@5.0.0:
     resolution: {integrity: sha512-gOsf2YwSlleG6IjRYG2A7k0HmBMEo6qVNk9Bp/EaLgAJT5ngH6PXbqa4ItvnEwCm/velL5jAnQgsHsWnjhGmvw==}
     engines: {node: '>=18'}
@@ -260,10 +256,6 @@ packages:
   clean-stack@2.2.0:
     resolution: {integrity: sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==}
     engines: {node: '>=6'}
-
-  clean-stack@4.2.0:
-    resolution: {integrity: sha512-LYv6XPxoyODi36Dp976riBtSY27VmFo+MKqEU9QCCWyTrdEPDog+RWA7xQWHi6Vbp61j5c4cdzzX1NidnwtUWg==}
-    engines: {node: '>=12'}
 
   clean-stack@5.2.0:
     resolution: {integrity: sha512-TyUIUJgdFnCISzG5zu3291TAsE77ddchd0bepon1VVQrKLGKFED4iXFEDQ24mIPdPBbyE16PK3F8MYE1CmcBEQ==}
@@ -525,10 +517,6 @@ packages:
     resolution: {integrity: sha512-kyCuEOWjJqZuDbRHzL8V93NzQhwIB71oFWSyzVo+KPZI+pnQPPxucdkrOZvkLRnrf5URsQM+IJ09Dw29cRALIA==}
     engines: {node: '>=10'}
 
-  hosted-git-info@6.1.1:
-    resolution: {integrity: sha512-r0EI+HBMcXadMrugk0GCQ+6BQV39PiWAZVfq7oIckeGiN7sjRGyQxPdft3nQekFTCQbYxLBH+/axZMeH8UX6+w==}
-    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
-
   hosted-git-info@7.0.2:
     resolution: {integrity: sha512-puUZAUKT5m8Zzvs72XWy3HtvVbTWljRE66cP60bxJzAqf2DgICo7lYTY2IHUmLnNpjYvw5bvmoHvPc0QO2a62w==}
     engines: {node: ^16.14.0 || >=18.0.0}
@@ -728,10 +716,6 @@ packages:
   lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
-
-  lru-cache@7.18.3:
-    resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
-    engines: {node: '>=12'}
 
   map-obj@1.0.1:
     resolution: {integrity: sha512-7N/q3lyZ+LVCp7PzuxrJr4KMbBE2hW7BT7YNia330OFxIf4d3r5zVpicP2650l7CPN6RM9zOJRl3NGpqSiw3Eg==}
@@ -1117,8 +1101,8 @@ packages:
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
 
-  semantic-release@21.0.7:
-    resolution: {integrity: sha512-peRDSXN+hF8EFSKzze90ff/EnAmgITHQ/a3SZpRV3479ny0BIZWEJ33uX6/GlOSKdaSxo9hVRDyv2/u2MuF+Bw==}
+  semantic-release@21.1.2:
+    resolution: {integrity: sha512-kz76azHrT8+VEkQjoCBHE06JNQgTgsC4bT8XfCzb7DHcsk9vG3fqeMVik8h5rcWCYi2Fd+M3bwA7BG8Z8cRwtA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1480,15 +1464,15 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@semantic-release/changelog@6.0.3(semantic-release@21.0.7)':
+  '@semantic-release/changelog@6.0.3(semantic-release@21.1.2)':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       fs-extra: 11.2.0
       lodash: 4.17.21
-      semantic-release: 21.0.7
+      semantic-release: 21.1.2
 
-  '@semantic-release/commit-analyzer@10.0.4(semantic-release@21.0.7)':
+  '@semantic-release/commit-analyzer@10.0.4(semantic-release@21.1.2)':
     dependencies:
       conventional-changelog-angular: 6.0.0
       conventional-commits-filter: 3.0.0
@@ -1497,7 +1481,7 @@ snapshots:
       import-from: 4.0.0
       lodash-es: 4.17.21
       micromatch: 4.0.7
-      semantic-release: 21.0.7
+      semantic-release: 21.1.2
     transitivePeerDependencies:
       - supports-color
 
@@ -1505,7 +1489,7 @@ snapshots:
 
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/git@10.0.1(semantic-release@21.0.7)':
+  '@semantic-release/git@10.0.1(semantic-release@21.1.2)':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
@@ -1515,11 +1499,11 @@ snapshots:
       lodash: 4.17.21
       micromatch: 4.0.7
       p-reduce: 2.1.0
-      semantic-release: 21.0.7
+      semantic-release: 21.1.2
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@9.2.6(semantic-release@21.0.7)':
+  '@semantic-release/github@9.2.6(semantic-release@21.1.2)':
     dependencies:
       '@octokit/core': 5.2.0
       '@octokit/plugin-paginate-rest': 9.2.1(@octokit/core@5.2.0)
@@ -1536,12 +1520,12 @@ snapshots:
       lodash-es: 4.17.21
       mime: 4.0.4
       p-filter: 4.1.0
-      semantic-release: 21.0.7
+      semantic-release: 21.1.2
       url-join: 5.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/npm@10.0.6(semantic-release@21.0.7)':
+  '@semantic-release/npm@10.0.6(semantic-release@21.1.2)':
     dependencies:
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
@@ -1554,11 +1538,11 @@ snapshots:
       rc: 1.2.8
       read-pkg: 8.1.0
       registry-auth-token: 5.0.2
-      semantic-release: 21.0.7
+      semantic-release: 21.1.2
       semver: 7.6.3
       tempy: 3.1.0
 
-  '@semantic-release/release-notes-generator@11.0.7(semantic-release@21.0.7)':
+  '@semantic-release/release-notes-generator@11.0.7(semantic-release@21.1.2)':
     dependencies:
       conventional-changelog-angular: 6.0.0
       conventional-changelog-writer: 6.0.1
@@ -1570,7 +1554,7 @@ snapshots:
       into-stream: 7.0.0
       lodash-es: 4.17.21
       read-pkg-up: 10.1.0
-      semantic-release: 21.0.7
+      semantic-release: 21.1.2
     transitivePeerDependencies:
       - supports-color
 
@@ -1595,11 +1579,6 @@ snapshots:
     dependencies:
       clean-stack: 2.2.0
       indent-string: 4.0.0
-
-  aggregate-error@4.0.1:
-    dependencies:
-      clean-stack: 4.2.0
-      indent-string: 5.0.0
 
   aggregate-error@5.0.0:
     dependencies:
@@ -1660,10 +1639,6 @@ snapshots:
   chalk@5.3.0: {}
 
   clean-stack@2.2.0: {}
-
-  clean-stack@4.2.0:
-    dependencies:
-      escape-string-regexp: 5.0.0
 
   clean-stack@5.2.0:
     dependencies:
@@ -1951,10 +1926,6 @@ snapshots:
     dependencies:
       lru-cache: 6.0.0
 
-  hosted-git-info@6.1.1:
-    dependencies:
-      lru-cache: 7.18.3
-
   hosted-git-info@7.0.2:
     dependencies:
       lru-cache: 10.4.3
@@ -2114,8 +2085,6 @@ snapshots:
   lru-cache@6.0.0:
     dependencies:
       yallist: 4.0.0
-
-  lru-cache@7.18.3: {}
 
   map-obj@1.0.1: {}
 
@@ -2409,24 +2378,24 @@ snapshots:
 
   safe-buffer@5.1.2: {}
 
-  semantic-release@21.0.7:
+  semantic-release@21.1.2:
     dependencies:
-      '@semantic-release/commit-analyzer': 10.0.4(semantic-release@21.0.7)
+      '@semantic-release/commit-analyzer': 10.0.4(semantic-release@21.1.2)
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 9.2.6(semantic-release@21.0.7)
-      '@semantic-release/npm': 10.0.6(semantic-release@21.0.7)
-      '@semantic-release/release-notes-generator': 11.0.7(semantic-release@21.0.7)
-      aggregate-error: 4.0.1
+      '@semantic-release/github': 9.2.6(semantic-release@21.1.2)
+      '@semantic-release/npm': 10.0.6(semantic-release@21.1.2)
+      '@semantic-release/release-notes-generator': 11.0.7(semantic-release@21.1.2)
+      aggregate-error: 5.0.0
       cosmiconfig: 8.3.6
       debug: 4.3.5
       env-ci: 9.1.1
-      execa: 7.2.0
+      execa: 8.0.1
       figures: 5.0.0
       find-versions: 5.1.0
       get-stream: 6.0.1
       git-log-parser: 1.2.1
       hook-std: 3.0.0
-      hosted-git-info: 6.1.1
+      hosted-git-info: 7.0.2
       lodash-es: 4.17.21
       marked: 5.1.2
       marked-terminal: 5.2.0(marked@5.1.2)
